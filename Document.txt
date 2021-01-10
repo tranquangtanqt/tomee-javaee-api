@@ -1,3 +1,5 @@
 mvn package tomee:run
 
 https://github.com/cicekhayri/tomee-javaee-crud-rest-starter-project
+
+https://1drv.ms/u/s!Au7A2YinfArAgSzau6UO4qCQLSKe?e=tlPGqi
