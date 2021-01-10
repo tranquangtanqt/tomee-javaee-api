@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/my_postgres_db" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        <!--Windows users change this to something like C:/my_h2_db-->
+        JdbcUrl = jdbc:postgresql://localhost:5432/example_student
+        UserName = postgres
+        Password = 654321
+        jtaManaged = true
+    </Resource>
+</tomee>
+
+
+<!-- <property name="javax.persistence.jdbc.driver"
+				value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:postgresql://localhost:5432/example_student" />
+			<property name="javax.persistence.jdbc.user"
+				value="postgres" />
+			<property name="javax.persistence.jdbc.password"
+				value="654321" /> -->

@@ -1,0 +1,3 @@
+mvn package tomee:run
+
+https://github.com/cicekhayri/tomee-javaee-crud-rest-starter-project
